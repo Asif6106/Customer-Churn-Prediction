@@ -78,12 +78,15 @@ ROC-AUC Score	0.82
 📷 Results
 ROC Curve
 
-(Insert your ROC Curve image here)
+<img width="753" height="711" alt="roc_curve" src="https://github.com/user-attachments/assets/41709c1a-57dd-453d-8225-84b4f4b7f598" />
+
 
 Feature Importance
 
-(Insert your Feature Importance image here)
+<img width="1353" height="615" alt="feature_importance" src="https://github.com/user-attachments/assets/350d7c8d-68f7-4f5f-9adc-283f83c62701" />
+
 
 Churn Distribution
 
-(Insert your Churn Distribution image here)
+<img width="783" height="710" alt="churn_distribution" src="https://github.com/user-attachments/assets/9bde6e1c-9776-46bf-8bb8-4e671464a395" />
+
