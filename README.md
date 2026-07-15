@@ -1,93 +1,193 @@
-Customer Churn Prediction using Machine Learning
-📌 Project Overview
+# Customer Churn Prediction using Machine Learning
 
-Customer churn is one of the biggest challenges for telecom companies. This project predicts whether a customer is likely to leave the service based on customer demographics, account information, and service usage.
+## 📌 Project Overview
 
-The objective is to build a machine learning model that helps businesses identify customers at risk of churning so they can take preventive actions.
+Customer churn is one of the biggest challenges faced by telecom companies. This project uses Machine Learning to predict whether a customer is likely to leave the service based on customer demographics, account information, and service usage.
 
-📊 Dataset
+The goal is to help businesses identify customers at risk of churning so they can take proactive actions to improve customer retention.
 
-Dataset: Telco Customer Churn Dataset
+---
 
-Total Records: 7,032
-Features: 30
-Target Variable: Churn
-0 → Customer Stayed
-1 → Customer Left
-🛠 Technologies Used
-Python
-NumPy
-Pandas
-Matplotlib
-Scikit-learn
-Joblib
-Jupyter Notebook
-📋 Project Workflow
-1. Data Loading
-Loaded dataset using Pandas
-Explored dataset structure
-Checked missing values
-Checked duplicate records
-2. Data Cleaning
-Removed customerID
-Converted TotalCharges to numeric
-Handled missing values
-3. Exploratory Data Analysis (EDA)
+## 📊 Dataset
 
-Performed analysis using visualizations.
+- **Dataset:** IBM Telco Customer Churn Dataset
+- **Total Records:** 7,032
+- **Features:** 30
+- **Target Variable:** Churn
 
-Examples:
+Target Values:
 
-Customer Churn Distribution
-Gender vs Churn
-Contract Type vs Churn
-Internet Service vs Churn
-Payment Method vs Churn
-4. Data Preprocessing
-Label Encoding
-One-Hot Encoding
-Feature Scaling using StandardScaler
-Train-Test Split
-5. Machine Learning Models
+- **0** → Customer Stayed
+- **1** → Customer Left
 
-Models implemented:
+---
 
-Logistic Regression
-Decision Tree Classifier
-Random Forest Classifier
-6. Hyperparameter Tuning
+## 🛠 Technologies Used
 
-Optimized Random Forest using GridSearchCV.
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Joblib
+- Jupyter Notebook
 
-7. Model Evaluation
+---
 
-Evaluation Metrics:
+## 📋 Project Workflow
 
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
-ROC Curve
-ROC-AUC Score
-Feature Importance
-📈 Final Model Performance
-Metric	Value
-Accuracy	79.10%
-ROC-AUC Score	0.82
-📷 Results
-ROC Curve
+### 1. Data Loading
+- Loaded dataset using Pandas
+- Explored dataset structure
+- Checked missing values
+- Checked duplicate records
 
-<img width="753" height="711" alt="roc_curve" src="https://github.com/user-attachments/assets/41709c1a-57dd-453d-8225-84b4f4b7f598" />
+### 2. Data Cleaning
+- Removed `customerID`
+- Converted `TotalCharges` to numeric
+- Handled missing values
 
+### 3. Exploratory Data Analysis (EDA)
 
-Feature Importance
+Performed data visualization to understand customer behavior.
 
-<img width="1353" height="615" alt="feature_importance" src="https://github.com/user-attachments/assets/350d7c8d-68f7-4f5f-9adc-283f83c62701" />
+Visualizations include:
 
+- Customer Churn Distribution
+- Gender vs Churn
+- Contract Type vs Churn
+- Internet Service vs Churn
+- Payment Method vs Churn
 
-Churn Distribution
+### 4. Data Preprocessing
 
-<img width="755" height="593" alt="churn_distribution" src="https://github.com/user-attachments/assets/75335671-9718-4eba-b75a-598d4aecc7ad" />
+- Label Encoding
+- One-Hot Encoding
+- Feature Scaling using StandardScaler
+- Train-Test Split
 
+### 5. Machine Learning Models
 
+Implemented and compared the following models:
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+
+### 6. Hyperparameter Tuning
+
+Optimized the Random Forest model using **GridSearchCV**.
+
+### 7. Model Evaluation
+
+Performance was evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+- ROC Curve
+- ROC-AUC Score
+- Feature Importance
+
+---
+
+## 📈 Model Performance
+
+| Metric | Value |
+|--------|-------|
+| Accuracy | **79.10%** |
+| ROC-AUC Score | **0.82** |
+
+Among all the models, **Random Forest** achieved the best overall performance and was selected as the final model.
+
+---
+
+## 📷 Results
+
+### ROC Curve
+
+![ROC Curve](images/roc_curve.png)
+
+---
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
+---
+
+### Customer Churn Distribution
+
+![Customer Churn Distribution](images/churn_distribution.png)
+
+---
+
+## 📁 Project Structure
+
+```
+Customer-Churn-Prediction/
+│
+├── Customer_Churn_Prediction.ipynb
+├── customer_churn.csv
+├── requirements.txt
+├── README.md
+├── images/
+│   ├── churn_distribution.png
+│   ├── contract_vs_churn.png
+│   ├── feature_importance.png
+│   └── roc_curve.png
+```
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Customer-Churn-Prediction.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Customer-Churn-Prediction
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Open the notebook
+
+```bash
+jupyter notebook Customer_Churn_Prediction.ipynb
+```
+
+---
+
+## 🚀 Future Improvements
+
+- Deploy the model using Streamlit
+- Try XGBoost and CatBoost models
+- Perform advanced feature engineering
+- Improve prediction accuracy
+- Add customer retention recommendations
+
+---
+
+## 👨‍💻 Author
+
+**Asif Sheikh**
+
+GitHub: https://github.com/Asif6106
+
+---
+
+## 📄 License
+
+This project is created for learning and educational purposes.
