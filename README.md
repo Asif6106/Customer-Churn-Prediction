@@ -88,5 +88,6 @@ Feature Importance
 
 Churn Distribution
 
-<img width="783" height="710" alt="churn_distribution" src="https://github.com/user-attachments/assets/9bde6e1c-9776-46bf-8bb8-4e671464a395" />
+<img width="755" height="593" alt="churn_distribution" src="https://github.com/user-attachments/assets/75335671-9718-4eba-b75a-598d4aecc7ad" />
+
 
