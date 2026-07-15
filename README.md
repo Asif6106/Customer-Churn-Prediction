@@ -108,19 +108,22 @@ Among all the models, **Random Forest** achieved the best overall performance an
 
 ### ROC Curve
 
-![ROC Curve](images/roc_curve.png)
+<img width="753" height="711" alt="roc_curve" src="https://github.com/user-attachments/assets/f8716dd9-777a-4d41-904f-529f5521217e" />
+
 
 ---
 
 ### Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+<img width="1353" height="615" alt="feature_importance" src="https://github.com/user-attachments/assets/2d6bcee3-dc82-4ad2-b1e4-00cbdbcb2378" />
+
 
 ---
 
 ### Customer Churn Distribution
 
-![Customer Churn Distribution](images/churn_distribution.png)
+<img width="755" height="593" alt="churn_distribution" src="https://github.com/user-attachments/assets/bcc2acb5-52be-47c6-8d7b-e8c020c5c9a4" />
+
 
 ---
 
